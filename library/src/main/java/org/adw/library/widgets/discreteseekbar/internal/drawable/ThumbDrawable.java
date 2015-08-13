@@ -76,6 +76,7 @@ public class ThumbDrawable extends StateDrawable implements Animatable {
             int wight=(int)bounds.width()+10;
             Bitmap myBitmap1 = convertToBitmap(context.getResources().getDrawable(R.drawable.ic_lence_normal), height, wight) ;
             canvas.drawBitmap(myBitmap1,bounds.left,bounds.top,null);
+            canvas.drawText("00",bounds.left,bounds.top,null);
 //            canvas.drawCircle(bounds.centerX(), bounds.centerY(), radius, paint);
         }
     }
